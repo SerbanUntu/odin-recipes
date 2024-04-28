@@ -1,0 +1,30 @@
+body {
+  background-color: bisque;
+  font-family: 'Courier New', sans-serif;
+  font-size: 20px;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Times New Roman', Times, serif;
+  color: hsl(200, 100%, 25%)
+}
+
+p,
+li {
+  color: hsl(200, 100%, 15%)
+}
+
+a {
+  color: hsl(0, 100%, 50%);
+  font-weight: bold;
+}
