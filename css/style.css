@@ -2,11 +2,18 @@ body {
   background-color: bisque;
   font-family: 'Courier New', sans-serif;
   font-size: 20px;
+  padding: 16px 480px;
 }
 
 img {
   height: 400px;
   width: auto;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
 }
 
 h1,
@@ -16,12 +23,29 @@ h4,
 h5,
 h6 {
   font-family: 'Times New Roman', Times, serif;
-  color: hsl(200, 100%, 25%)
+  color: hsl(200, 100%, 25%);
 }
 
-p,
-li {
-  color: hsl(200, 100%, 15%)
+ol,
+ul {
+  padding: 32px;
+  padding-left: 64px;
+}
+
+ol {
+  background-color: hsl(200, 100%, 15%);
+}
+
+ul {
+  background-color: white;
+}
+
+ol li {
+  color: white;
+}
+
+p, ul li {
+  color: hsl(200, 100%, 15%);
 }
 
 a {
